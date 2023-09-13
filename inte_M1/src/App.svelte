@@ -16,7 +16,7 @@
       <div class="flex-none">
         <ul class="menu menu-horizontal px-1">
           <li>
-            <a href="https://instagram.com/gs.isn?igshid=NjIwNzIyMDk2Mg==">
+            <a href="https://www.instagram.com/gs.isn/">
               Instagram
             </a>
           </li>
@@ -40,15 +40,15 @@
         <img src="src/planfermat--buffon.jpg" alt="Plan de l'étape 1" />
       </div>
       <!-- Colonne 2 -->
-      <div>
+      <div class="container mx-auto p-4 flex flex-col justify-center">
         <p>
           Rendez-vous au bâtiment Buffon. Une fois au bâtiment, montez au premier étage et répondez à la question :
         </p>
         <p>Quelle association est sur le campus parmi les réponses suivantes ?</p>
         <!-- Réponses possibles -->
-        <button class="btn">InOO1</button>
-        <button class="btn">Malibu</button>
-        <button class="btn">PCFSchool</button>
+        <button class="btn m-2">InOO1</button>
+        <button class="btn m-2">Malibu</button>
+        <button class="btn m-2">PCFSchool</button>
       </div>
     </div>
     
@@ -61,7 +61,7 @@
         <img src="src/planbuffon--germain.jpg" alt="Plan de l'étape 2" />
       </div>
       <!-- Colonne 2 -->
-      <div class="container mx-auto p-4">
+      <div class="container mx-auto p-4 flex flex-col justify-center">
         <p>
           Sortez du bâtiment Buffon. Montez la pente et rendez-vous au bâtiment Germain, devant la porte du CROUS/restaurant universitaire. Ensuite, répondez à la question :
         </p>
@@ -77,11 +77,11 @@
         <img src="src/plangermain--descartes.jpg" alt="Plan de l'étape 3" />
       </div>
       <!-- Colonne 2 -->
-      <div class="container mx-auto p-4">
+      <div class="container mx-auto p-4 flex flex-col justify-center">
         <p>
           Partez du bâtiment Germain en direction du bâtiment Descartes puis prenez-vous en photo devant Descartes ou avec la vue qu'offre la terrasse de Descartes, puis envoyez la photo au compte Instagram :
         </p>
-        <button class="btn">Instagram</button>
+        <a href="https://www.instagram.com/gs.isn/" class="btn m-2">Instagram</a>
       </div>
     </div>
 
@@ -93,7 +93,7 @@
         <img src="src/plandescartes-bu.jpg" alt="Plan de l'étape 4" />
       </div>
       <!-- Colonne 2 -->
-      <div>
+      <div class="container mx-auto p-4 flex flex-col justify-center">
         <p>
           Une fois la photo faite, passez par la forêt pour vous rendre à la bibliothèque universitaire et répondez à la question :
         </p>
