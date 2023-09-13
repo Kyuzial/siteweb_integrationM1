@@ -18,7 +18,10 @@
 
   <!-- étape 1 : fermat -> buffon -->
   <div>
-    <div class="artboard phone-4">375×812</div>
+    <!-- plan de l'étape-->
+    <div class="artboard phone-4">
+      <img src="src/planfermat--buffon.jpg" alt="">
+    </div>
     <p>
       rendez vous au batiment buffon. une fois au batiment monter au premier étage et repondez a la question
     </p>
@@ -27,7 +30,10 @@
 
   <!-- étape 2 : buffon -> germain/crous -->
   <div>
-    <div class="artboard phone-4">375×812</div>
+    <!-- plan de l'étape-->
+    <div class="artboard phone-4">
+      <img src="src/planbuffon--germain.jpg" alt="">
+    </div>
     <p>
       sortez du batiment buffon. Montez la pente et rendez vous au batiment germain devant la porte du crous/restaurant universitaire.
     </p>
@@ -35,16 +41,22 @@
 
   <!-- étape 3 : germain/crous -> Descartes -->
   <div>
-    <div class="artboard phone-4">375×812</div>
+    <!-- plan de l'étape-->
+    <div class="artboard phone-4">
+      <img src="src/plangermain--descartes.jpg" alt="">
+    </div>
     <p>
       Partez du batiment Germain en direction du batiment Descartes puis prenez vous en photo et envoyer la au compte instagramme:
-      <a> ajouter une ref</a>
+      <a href="https://instagram.com/gs.isn?igshid=NjIwNzIyMDk2Mg=="> instagram de la graduate school isn</a>
     </p>
   </div>
 
   <!-- étape 4 : Descartes -> BU -->
   <div>
-    <div class="artboard phone-4">375×812</div>
+    <!-- plan de l'étape-->
+    <div class="artboard phone-4">
+      <img src="src/plandescartes--bu.jpg" alt="">
+    </div>
     <p>
       Une fois la photo faite passez par la foret pour vous rendre a la bibliothèque universitaire et répondez a la question:
 
@@ -53,7 +65,6 @@
 
   <!-- étape 5 : BU -> Stades -->
   <div>
-    <div class="artboard phone-4">375×812</div>
     <p>
       Bravo vous avez fini la visite de la fac. Maintenant rendez vous au stade a coté de la bibliothèque universitaire pour faire quels épreuves mentales et sportives.
     </p>
@@ -61,7 +72,9 @@
 
   <!-- étape 6 : épreuves sportives -->
   <div >
-    <div class="artboard phone-4">375×812</div>
+    <p>
+      description des épreuves
+    </p>
   </div>
 </main>
 
