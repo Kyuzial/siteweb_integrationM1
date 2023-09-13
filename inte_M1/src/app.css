@@ -1,3 +1,4 @@
+/* Définition des variables globales */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -14,32 +15,40 @@
   -webkit-text-size-adjust: 100%;
 }
 
+/* Styles pour les liens */
 a {
   font-weight: 500;
   color: #646cff;
-  text-decoration: inherit;
+  text-decoration: none;
 }
+
 a:hover {
   color: #535bf2;
 }
 
+/* Styles pour le corps de la page */
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  justify-content: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: var(--background-color);
 }
 
+/* Styles pour les titres de niveau 1 */
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
 
+/* Styles pour les cartes */
 .card {
   padding: 2em;
 }
 
+/* Styles pour l'élément avec l'ID "app" */
 #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -47,6 +56,7 @@ h1 {
   text-align: center;
 }
 
+/* Styles pour les boutons */
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -58,22 +68,29 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* Styles spécifiques pour le mode clair */
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
   }
+
+  /* Styles pour les liens en mode clair */
   a:hover {
     color: #747bff;
   }
+
+  /* Styles pour les boutons en mode clair */
   button {
     background-color: #f9f9f9;
   }
