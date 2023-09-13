@@ -35,7 +35,7 @@
     <!-- Étape 1 : Fermat -> Buffon -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-1">
       <!-- Colonne 1 -->
-      <div class="artboard phone-4">
+      <div class="p-4 bg-white rounded-lg shadow-md">
         <!-- Plan de l'étape -->
         <img src="src/planfermat--buffon.jpg" alt="Plan de l'étape 1" />
       </div>
@@ -56,7 +56,7 @@
     <!-- Étape 2 : Buffon -> Germain/CROUS -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-1">
       <!-- Colonne 1 -->
-      <div class="artboard phone-4">
+      <div class="p-4 bg-white rounded-lg shadow-md">
         <!-- Plan de l'étape -->
         <img src="src/planbuffon--germain.jpg" alt="Plan de l'étape 2" />
       </div>
@@ -72,7 +72,7 @@
     <!-- Étape 3 : Germain/CROUS -> Descartes -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-1">
       <!-- Colonne 1 -->
-      <div class="artboard phone-4">
+      <div class="p-4 bg-white rounded-lg shadow-md">
         <!-- Plan de l'étape -->
         <img src="src/plangermain--descartes.jpg" alt="Plan de l'étape 3" />
       </div>
@@ -88,7 +88,7 @@
     <!-- Étape 4 : Descartes -> BU -->
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-1">
       <!-- Colonne 1 -->
-      <div class="artboard phone-4">
+      <div class="p-4 bg-white rounded-lg shadow-md">
         <!-- Plan de l'étape -->
         <img src="src/plandescartes-bu.jpg" alt="Plan de l'étape 4" />
       </div>
