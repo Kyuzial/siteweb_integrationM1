@@ -54,10 +54,22 @@
         <p>
           Quelle association est sur le campus parmi les réponses suivantes ?
         </p>
-        <!-- Réponses possibles -->
-        <button class="btn">InOO1</button>
-        <button class="btn">Malibu</button>
-        <button class="btn">PCFSchool</button>
+        <!-- espacement -->
+        <div>
+          <div class="navbar" />
+        </div>
+        <!-- réponse possible-->
+        <div class="grid grid-cols-1 gap-1">
+          <div>
+            <button class="btn">InOO1</button>
+          </div>
+          <div>
+            <button class="btn">Malibu</button>
+          </div>
+          <div>
+            <button class="btn">PCFSchool</button>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -70,6 +82,10 @@
       </div>
       <!-- Colonne 2 -->
       <div class="container mx-auto p-4">
+        <!-- espacement -->
+        <div>
+          <div class="navbar" />
+        </div>
         <p>
           Sortez du bâtiment Buffon. Montez la pente et rendez-vous au bâtiment
           Germain, devant la porte du CROUS/restaurant universitaire. Ensuite,
@@ -88,12 +104,25 @@
       </div>
       <!-- Colonne 2 -->
       <div class="container mx-auto p-4">
+        <!-- espacement -->
+        <div>
+          <div class="navbar" />
+        </div>
         <p>
           Partez du bâtiment Germain en direction du bâtiment Descartes puis
           prenez-vous en photo devant Descartes ou avec la vue qu'offre la
           terrasse de Descartes, puis envoyez la photo au compte Instagram :
         </p>
+        <!-- espacement -->
+        <div>
+          <div class="navbar" />
+        </div>
         <button class="btn">Instagram</button>
+        <!-- espacement -->
+        <div>
+          <div class="navbar" />
+        </div>
+        <p>la meilleur photo remportera un prix</p>
       </div>
     </div>
 
@@ -106,11 +135,31 @@
       </div>
       <!-- Colonne 2 -->
       <div>
+        <!-- espacement -->
+        <div>
+          <div class="navbar" />
+        </div>
         <p>
           Une fois la photo faite, passez par la forêt pour vous rendre à la
           bibliothèque universitaire et répondez à la question :
         </p>
         <p>Que signifie ISN ?</p>
+        <!-- espacement -->
+        <div>
+          <div class="navbar" />
+        </div>
+        <!-- réponse possible-->
+        <div class="grid grid-cols-1 gap-1">
+          <div>
+            <button class="btn">Informatique et Sciences du Numérique</button>
+          </div>
+          <div>
+            <button class="btn">International school of Nantes</button>
+          </div>
+          <div>
+            <button class="btn">Institution des Sciences Numériques</button>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -121,6 +170,10 @@
         stade à côté de la bibliothèque universitaire pour faire quelles
         épreuves mentales et sportives.
       </p>
+      <!-- espacement -->
+      <div>
+        <div class="navbar" />
+      </div>
     </div>
 
     <!-- étape 6 : épreuves sportives -->
