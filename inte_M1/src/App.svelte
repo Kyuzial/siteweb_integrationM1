@@ -92,16 +92,8 @@
           prenez-vous en photo devant Descartes ou avec la vue qu'offre la
           terrasse de Descartes, puis envoyez la photo au compte Instagram :
         </p>
-        <!-- espacement -->
-        <div>
-          <div class="navbar" />
-        </div>
         <a href="https://www.instagram.com/gs.isn/" class="btn m-2">Instagram</a>
-        <!-- espacement -->
-        <div>
-          <div class="navbar" />
-        </div>
-        <p>la meilleur photo remportera un prix</p>
+        <p>La meilleure photo remportera un prix</p>
       </div>
     </div>
 
@@ -119,10 +111,6 @@
           bibliothèque universitaire et répondez à la question :
         </p>
         <p>Que signifie ISN ?</p>
-        <!-- espacement -->
-        <div>
-          <div class="navbar" />
-        </div>
         <!-- réponse possible-->
         <div class="grid grid-cols-1 gap-1">
           <div>
@@ -145,10 +133,6 @@
         stade à côté de la bibliothèque universitaire pour faire quelles
         épreuves mentales et sportives.
       </p>
-      <!-- espacement -->
-      <div>
-        <div class="navbar" />
-      </div>
     </div>
 
     <!-- étape 6 : épreuves sportives -->
@@ -158,12 +142,12 @@
       <p>
         Chaque équipe doit se concerter et choisir 3 jeux parmis les 4 proposés
       </p>
-      <p>chaque épreuve peut au maximum donné 10 points</p>
+      <p>Chaque épreuve peut au maximum donné 10 points</p>
       <div>
         <div class="navbar" />
       </div>
       <h2>Liste d'épreuves</h2>
-      <h3>épreuve sportive: Balle au prisonnier</h3>
+      <h2>épreuve sportive: Balle au prisonnier</h2>
       <p>
         une équipe affronte une autre équipe tiré au hasard et ne joue qu'un
         match
@@ -174,7 +158,7 @@
       <div>
         <div class="navbar" />
       </div>
-      <h3>épreuve de cohésion : max de passes</h3>
+      <h2>épreuve de cohésion : max de passes</h2>
       <p>
         une équipe affronte une autre équipe tiré au hasard et ne joue qu'un
         match
@@ -195,7 +179,7 @@
       <div>
         <div class="navbar" />
       </div>
-      <h3>épreuve d'adresse : chamboule tout</h3>
+      <h2>épreuve d'adresse : chamboule tout</h2>
       <p>10 boites disposé en pyramide</p>
       <p>
         une équipe joue a la fois, chaque membre a deux tirs pour faire tomber
@@ -205,7 +189,7 @@
       <div>
         <div class="navbar" />
       </div>
-      <h3>épreuve de communication : Time's up</h3>
+      <h2>épreuve de communication : Time's up</h2>
       <p>une équipe affronte un autre équipe en 2 fois 2 manche de 45 sec</p>
       <p>
         durant chaque manche , un membre d'équipe doit faire deviner a son
