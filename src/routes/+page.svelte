@@ -3,6 +3,26 @@
   import plan2 from "$lib/assets/planbuffon--germain.jpg";
   import plan3 from "$lib/assets/plangermain--descartes.jpg";
   import plan4 from "$lib/assets/plandescartes-bu.jpg";
+
+  let resultq1 = "";
+
+  function goodAnswerq1() {
+    resultq1 = "Bonne réponse !";
+  }
+
+  function badAnswerq1() {
+    resultq1 = "Mauvaise réponse !";
+  }
+
+  let resultq2 = "";
+
+  function goodAnswerq2() {
+    resultq2 = "Bonne réponse !";
+  }
+
+  function badAnswerq2() {
+    resultq2 = "Mauvaise réponse !";
+  }
 </script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -67,10 +87,19 @@
         </p>
         <!-- Réponses possibles -->
         <div class="flex flex-col items-center">
-          <button class="btn my-2 px-6 py-2">InOO1</button>
-          <button class="btn my-2 px-6 py-2">Malibu</button>
-          <button class="btn my-2 px-6 py-2">PCFSchool</button>
+          <button class="btn my-2 px-6 py-2" on:click={goodAnswerq1}
+            >InOO1</button
+          >
+          <button class="btn my-2 px-6 py-2" on:click={badAnswerq1}
+            >Malibu</button
+          >
+          <button class="btn my-2 px-6 py-2" on:click={badAnswerq1}
+            >PCFSchool</button
+          >
         </div>
+        <p class="text-2xl font-bold text-center mb-4">
+          {resultq1}
+        </p>
       </div>
     </div>
 
@@ -140,19 +169,23 @@
         <!-- Réponses possibles -->
         <div class="grid grid-cols-1 gap-2">
           <div class="text-center">
-            <button class="btn px-6 py-2"
+            <button class="btn px-6 py-2" on:click={badAnswerq2}
               >Informatique et Sciences du Numérique</button
             >
           </div>
           <div class="text-center">
-            <button class="btn px-6 py-2">International school of Nantes</button
+            <button class="btn px-6 py-2" on:click={badAnswerq2}
+              >International school of Nantes</button
             >
           </div>
           <div class="text-center">
-            <button class="btn px-6 py-2"
+            <button class="btn px-6 py-2" on:click={goodAnswerq2}
               >Institution des Sciences Numériques</button
             >
           </div>
+          <p class="text-2xl font-bold text-center mb-4">
+            {resultq2}
+          </p>
         </div>
       </div>
     </div>
