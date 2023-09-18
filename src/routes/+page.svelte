@@ -140,7 +140,7 @@
         <p class="text-lg text-center mb-4">
           Partez du bâtiment Germain en direction du bâtiment Descartes puis
           prenez-vous en photo devant Descartes ou avec la vue qu'offre la
-          terrasse de Descartes, puis envoyez la photo au compte Instagram :
+          terrasse de Descartes, puis envoyez la photo en DM/MP avec votre numéro d'équipe au compte Instagram :
         </p>
         <a href="https://www.instagram.com/gs.isn/" class="btn mb-4"
           >Instagram</a
@@ -169,7 +169,7 @@
         <!-- Réponses possibles -->
         <div class="grid grid-cols-1 gap-2">
           <div class="text-center">
-            <button class="btn px-6 py-2" on:click={badAnswerq2}
+            <button class="btn px-6 py-2" on:click={goodAnswerq2}
               >Informatique et Sciences du Numérique</button
             >
           </div>
@@ -179,7 +179,7 @@
             >
           </div>
           <div class="text-center">
-            <button class="btn px-6 py-2" on:click={goodAnswerq2}
+            <button class="btn px-6 py-2" on:click={badAnswerq2}
               >Institution des Sciences Numériques</button
             >
           </div>
