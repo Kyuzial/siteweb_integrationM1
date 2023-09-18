@@ -1,4 +1,5 @@
 <script>
+  import loogISN from "$lib/assets/logoisn.png";
   import plan1 from "$lib/assets/planfermat--buffon.jpg";
   import plan2 from "$lib/assets/planbuffon--germain.jpg";
   import plan3 from "$lib/assets/plangermain--descartes.jpg";
@@ -32,11 +33,8 @@
     <!-- Barre de navigation en haut de la page -->
     <div class="navbar bg-base-300">
       <div class="flex-1">
-        <a
-          href="https://www.uvsq.fr/"
-          class="btn btn-ghost normal-case text-xl"
-        >
-          UVSQ
+        <a href="https://www.uvsq.fr/">
+          <img src={loogISN} alt="LOGO" class="w-20 h-auto" />
         </a>
       </div>
       <div class="flex-none">
@@ -140,7 +138,8 @@
         <p class="text-lg text-center mb-4">
           Partez du bâtiment Germain en direction du bâtiment Descartes puis
           prenez-vous en photo devant Descartes ou avec la vue qu'offre la
-          terrasse de Descartes, puis envoyez la photo en DM/MP avec votre numéro d'équipe au compte Instagram :
+          terrasse de Descartes, puis envoyez la photo en DM/MP avec votre
+          numéro d'équipe au compte Instagram :
         </p>
         <a href="https://www.instagram.com/gs.isn/" class="btn mb-4"
           >Instagram</a
