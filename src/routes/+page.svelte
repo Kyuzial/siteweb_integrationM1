@@ -297,8 +297,17 @@
     <footer class="footer footer-center p-4 bg-base-300 text-base-content">
       <aside>
         <p>
-          Développé par Niels Merceron et Pierre Vermeulen (Etudiants en Master
-          à l'UVSQ)
+          Développé par <a
+            href="https://github.com/nielsmerceron"
+            target="_blank"
+            class="text-blue-500 hover:text-blue-700">Niels Merceron</a
+          >
+          et
+          <a
+            href="https://github.com/Kyuzial"
+            target="_blank"
+            class="text-blue-500 hover:text-blue-700">Pierre Vermeulen</a
+          > (Etudiants en Master à l'UVSQ)
         </p>
       </aside>
     </footer>
