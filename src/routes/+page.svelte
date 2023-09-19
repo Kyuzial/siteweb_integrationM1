@@ -25,6 +25,16 @@
   function badAnswerq2() {
     resultq2 = "Mauvaise réponse !";
   }
+
+  let resultq3 = "";
+
+  function goodAnswerq3() {
+    resultq3 = "Bonne réponse !";
+  }
+
+  function badAnswerq3() {
+    resultq3 = "Mauvaise réponse !";
+  }
 </script>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -122,14 +132,29 @@
       <!-- Colonne 2 -->
       <div class="container mx-auto p-4 flex flex-col items-center">
         <p class="text-2xl font-bold text-center mb-4">
-          Rendez-vous au bâtiment Buffon.
+          Rendez-vous au bâtiment Germain.
         </p>
         <p class="text-lg text-center mb-4">
           Montez la pente et rendez-vous au bâtiment Germain, devant la porte du
           CROUS/restaurant universitaire. Ensuite, répondez à la question :
         </p>
         <p class="text-lg text-center mb-4">
-          Qu'est-ce qu'une graduate school ?
+          Dans quel domaine se trouve la GS ISN ?
+        </p>
+        <!-- Réponses possibles -->
+        <div class="flex flex-col items-center">
+          <button class="btn my-2 px-6 py-2" on:click={goodAnswerq3}
+            >Sciences & ingénierie</button
+          >
+          <button class="btn my-2 px-6 py-2" on:click={badAnswerq3}
+            >Science de la vie</button
+          >
+          <button class="btn my-2 px-6 py-2" on:click={badAnswerq3}
+            >Sciences sociales et humanités</button
+          >
+        </div>
+        <p class="text-2xl font-bold text-center mb-4">
+          {resultq3}
         </p>
       </div>
     </div>
