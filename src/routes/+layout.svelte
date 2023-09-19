@@ -6,6 +6,6 @@
   <title>IN001</title>
 </svelte:head>
 
-<html data-theme="dracula" lang="fr" />
+<html data-theme="light" lang="fr" />
 
 <slot />

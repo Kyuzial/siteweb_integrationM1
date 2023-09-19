@@ -1,5 +1,6 @@
 <script>
   import loogISN from "$lib/assets/logoisn.png";
+  import logoIn001 from "$lib/assets/in001-logo.png";
   import plan1 from "$lib/assets/planfermat--buffon.jpg";
   import plan2 from "$lib/assets/planbuffon--germain.jpg";
   import plan3 from "$lib/assets/plangermain--descartes.jpg";
@@ -34,15 +35,25 @@
     <div class="navbar bg-base-300">
       <div class="flex-1">
         <a href="https://www.uvsq.fr/">
-          <img src={loogISN} alt="LOGO" class="w-20 h-auto" />
+          <img src={logoIn001} alt="LOGO" class="w-20 h-auto" />
         </a>
       </div>
       <div class="flex-none">
         <ul class="menu menu-horizontal px-1">
           <li>
-            <a href="https://www.instagram.com/gs.isn/"> Instagram </a>
+            <a
+              class="text-blue-500 hover:text-blue-700"
+              href="https://www.instagram.com/gs.isn/"
+            >
+              Instagram
+            </a>
           </li>
-          <li><a href="https://discord.gg/hJ5nRewRpX">Discord</a></li>
+          <li>
+            <a
+              class="text-blue-500 hover:text-blue-700"
+              href="https://discord.gg/hJ5nRewRpX">Discord</a
+            >
+          </li>
         </ul>
       </div>
     </div>
@@ -295,7 +306,8 @@
       </div>
     </div>
     <footer class="footer footer-center p-4 bg-base-300 text-base-content">
-      <aside>
+      <aside class="items-center grid-flow-col">
+        <img src={loogISN} alt="LOGO" class="h-24" />
         <p>
           Développé par <a
             href="https://github.com/nielsmerceron"
