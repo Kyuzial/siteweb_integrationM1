@@ -331,8 +331,8 @@
       </div>
     </div>
     <footer class="footer footer-center p-4 bg-base-300 text-base-content">
-      <aside class="items-center grid-flow-col">
-        <img src={loogISN} alt="LOGO" class="h-24" />
+      <aside class="grid grid-cols-1 lg:grid-cols-2 gap-1">
+        <img src={loogISN} alt="LOGO" class="h-auto max-h-24" />
         <p>
           Développé par <a
             href="https://github.com/nielsmerceron"
