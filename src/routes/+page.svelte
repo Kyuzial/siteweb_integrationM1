@@ -6,34 +6,10 @@
   import plan3 from "$lib/assets/plangermain--descartes.jpg";
   import plan4 from "$lib/assets/plandescartes-bu.jpg";
 
-  let resultq1 = "";
+  let results = ["", "", ""];
 
-  function goodAnswerq1() {
-    resultq1 = "Bonne réponse !";
-  }
-
-  function badAnswerq1() {
-    resultq1 = "Mauvaise réponse !";
-  }
-
-  let resultq2 = "";
-
-  function goodAnswerq2() {
-    resultq2 = "Bonne réponse !";
-  }
-
-  function badAnswerq2() {
-    resultq2 = "Mauvaise réponse !";
-  }
-
-  let resultq3 = "";
-
-  function goodAnswerq3() {
-    resultq3 = "Bonne réponse !";
-  }
-
-  function badAnswerq3() {
-    resultq3 = "Mauvaise réponse !";
+  function setAnswer(questionIndex, isGood) {
+    results[questionIndex] = isGood ? "Bonne réponse !" : "Mauvaise réponse !";
   }
 </script>
 
@@ -54,6 +30,8 @@
             <a
               class="text-blue-500 hover:text-blue-700"
               href="https://www.instagram.com/gs.isn/"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               Instagram
             </a>
@@ -61,7 +39,9 @@
           <li>
             <a
               class="text-blue-500 hover:text-blue-700"
-              href="https://discord.gg/hJ5nRewRpX">Discord</a
+              href="https://discord.gg/hJ5nRewRpX"
+              rel="noopener noreferrer"
+              target="_blank">Discord</a
             >
           </li>
         </ul>
@@ -106,18 +86,20 @@
         </p>
         <!-- Réponses possibles -->
         <div class="flex flex-col items-center">
-          <button class="btn my-2 px-6 py-2" on:click={goodAnswerq1}
+          <button class="btn my-2 px-6 py-2" on:click={() => setAnswer(0, true)}
             >InOO1</button
           >
-          <button class="btn my-2 px-6 py-2" on:click={badAnswerq1}
-            >Malibu</button
+          <button
+            class="btn my-2 px-6 py-2"
+            on:click={() => setAnswer(0, false)}>Malibu</button
           >
-          <button class="btn my-2 px-6 py-2" on:click={badAnswerq1}
-            >PCFSchool</button
+          <button
+            class="btn my-2 px-6 py-2"
+            on:click={() => setAnswer(0, false)}>PCFSchool</button
           >
         </div>
         <p class="text-2xl font-bold text-center mb-4">
-          {resultq1}
+          {results[0]}
         </p>
       </div>
     </div>
@@ -143,18 +125,21 @@
         </p>
         <!-- Réponses possibles -->
         <div class="flex flex-col items-center">
-          <button class="btn my-2 px-6 py-2" on:click={goodAnswerq3}
+          <button class="btn my-2 px-6 py-2" on:click={() => setAnswer(1, true)}
             >Sciences & ingénierie</button
           >
-          <button class="btn my-2 px-6 py-2" on:click={badAnswerq3}
-            >Science de la vie</button
+          <button
+            class="btn my-2 px-6 py-2"
+            on:click={() => setAnswer(1, false)}>Science de la vie</button
           >
-          <button class="btn my-2 px-6 py-2" on:click={badAnswerq3}
+          <button
+            class="btn my-2 px-6 py-2"
+            on:click={() => setAnswer(1, false)}
             >Sciences sociales et humanités</button
           >
         </div>
         <p class="text-2xl font-bold text-center mb-4">
-          {resultq3}
+          {results[1]}
         </p>
       </div>
     </div>
@@ -177,8 +162,11 @@
           terrasse de Descartes, puis envoyez la photo en DM/MP avec votre
           numéro d'équipe au compte Instagram :
         </p>
-        <a href="https://www.instagram.com/gs.isn/" class="btn mb-4"
-          >Instagram</a
+        <a
+          href="https://www.instagram.com/gs.isn/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn mb-4">Instagram</a
         >
         <p class="text-lg text-center mb-4">
           La meilleure photo remportera un prix
@@ -204,22 +192,22 @@
         <!-- Réponses possibles -->
         <div class="grid grid-cols-1 gap-2">
           <div class="text-center">
-            <button class="btn px-6 py-2" on:click={goodAnswerq2}
+            <button class="btn px-6 py-2" on:click={() => setAnswer(2, true)}
               >Informatique et Sciences du Numérique</button
             >
           </div>
           <div class="text-center">
-            <button class="btn px-6 py-2" on:click={badAnswerq2}
+            <button class="btn px-6 py-2" on:click={() => setAnswer(2, false)}
               >International school of Nantes</button
             >
           </div>
           <div class="text-center">
-            <button class="btn px-6 py-2" on:click={badAnswerq2}
+            <button class="btn px-6 py-2" on:click={() => setAnswer(2, false)}
               >Institution des Sciences Numériques</button
             >
           </div>
           <p class="text-2xl font-bold text-center mb-4">
-            {resultq2}
+            {results[2]}
           </p>
         </div>
       </div>
